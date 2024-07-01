@@ -1,0 +1,79 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.profile, .time-info, .goals, footer {
+  background-color: white;
+  padding: 2rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.goals h2 {
+  text-align: center;
+  color: #4CAF50;
+}
+
+.goals ul {
+  list-style: none;
+  padding: 0;
+}
+
+.goals li {
+  margin-bottom: 2rem;
+}
+
+.goals h3 {
+  color: #333;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+  }
+}/*# sourceMappingURL=style.css.map */
